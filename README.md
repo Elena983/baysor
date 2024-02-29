@@ -19,15 +19,15 @@ julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/kharchenkolab/B
 
 Only transcripts.csv.gz file will be needed.
 
-Download Micromamba and the required modules (pandas, scipy) and create the environment.
-Prepare Xenium data for the baysor algorithm running (python script) to get filtered_transcripts.csv.
+Download Micromamba and the required modules (pandas, scipy, pyarrow) and create the environment.
+Prepare Xenium data for the baysor algorithm running (python script - filter_transcripts.py) to get filtered_transcripts.csv.
 
 1. Filter out negative control transcripts.
    
 2. Filter out transcripts whose Q-Score falls below a specified threshold (default: 20).
-Since Baysor errors out if the cell_id column contains negative integers, it is necessary to modify the cell_id value from -1 to 0 for transcripts that are not associated with cells.
+Since Baysor errors out if the cell_id column contains negative integers, it is necessary to modify the cell_id value from -1 to 0 for transcripts not associated with cells.
 
-3. As an added bonus, the script can also be used to subset the dataset (e.g. only keep transcripts whose x_location is < 1000 microns) and facilitate faster iterations of parameter-tuning.
+3. As a bonus, the script can also be used to subset the dataset (e.g. only keep transcripts whose x_location is < 1000 microns) and facilitate faster iterations of parameter-tuning.
 
 You can find the folder where baysor is installed and run all commands.
 
@@ -37,7 +37,7 @@ Preview command to see preliminary data
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/2883b4cd-3c2b-42c7-932a-afe46421c121)
 
-Baysor segmentation.Run
+Baysor segmentation. Run
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/38955390-2944-4448-9cea-90b4dd86f6a1)
 
@@ -49,7 +49,8 @@ Clustering
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/005ab003-7dd0-437a-9193-b99eb5143767)
 
-After cell segmentation, we must transform segmentation.csv to the appropriate format for tools like Seurat or Scipy (python script).
+After cell segmentation, we must transform segmentation.csv to the appropriate format for tools like Seurat or Scipy (python script - map_transcripts.py).
+
 
 
 
