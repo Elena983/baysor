@@ -1,5 +1,6 @@
-# baysor
-segmentation via baysor
+### baysor
+
+##Segmentation Algorithm via Baysor Xenium data
 
 Breast cancer data from Xenium portal
 https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast
@@ -9,10 +10,11 @@ https://github.com/kharchenkolab/Baysor
 
 It is not spatial transcriptomics data but single molecule data like FISH or in-situ sequencing.
 
-Installation
+##Installation
 
 Some insights may be found here
 https://www.10xgenomics.com/analysis-guides/using-baysor-to-perform-xenium-cell-segmentation
+
 -----------------------------
 curl -fsSL https://install.julialang.org | sh
 
@@ -21,6 +23,8 @@ julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/kharchenkolab/B
 -----------------------------
 
 Only the transcripts.csv.gz file will be needed.
+
+---------------------------------------------------
 
 Download Micromamba and the required modules (pandas, scipy, pyarrow) and create the environment.
 Prepare Xenium data for the baysor algorithm running (python script - filter_transcripts.py) to get filtered_transcripts.csv.
