@@ -14,8 +14,8 @@ Installation
 Some insights may be found here
 https://www.10xgenomics.com/analysis-guides/using-baysor-to-perform-xenium-cell-segmentation
 
-'curl -fsSL https://install.julialang.org | sh'
-'julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/kharchenkolab/Baysor.git")); Pkg.build()''
+curl -fsSL https://install.julialang.org | sh
+julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/kharchenkolab/Baysor.git")); Pkg.build()'
 
 Only transcripts.csv.gz file will be needed.
 
@@ -37,11 +37,15 @@ Preview command to see preliminary data
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/2883b4cd-3c2b-42c7-932a-afe46421c121)
 
-Baysor segmentation. Xenium Data. Run. Borders to estimate the quality. Then we may adjust the parameters.
+Baysor segmentation.Run
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/38955390-2944-4448-9cea-90b4dd86f6a1)
 
+Borders to estimate the quality. Then we may adjust the parameters.
+
 ![image](https://github.com/Elena983/baysor/assets/68946912/3377553c-3030-4be1-bc12-409aa512a022)
+
+Clustering
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/005ab003-7dd0-437a-9193-b99eb5143767)
 
