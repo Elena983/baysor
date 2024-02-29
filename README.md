@@ -15,6 +15,7 @@ Some insights may be found here
 https://www.10xgenomics.com/analysis-guides/using-baysor-to-perform-xenium-cell-segmentation
 
 curl -fsSL https://install.julialang.org | sh
+
 julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/kharchenkolab/Baysor.git")); Pkg.build()'
 
 Only transcripts.csv.gz file will be needed.
