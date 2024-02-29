@@ -1,6 +1,6 @@
 ### baysor
 
-##Segmentation Algorithm via Baysor Xenium data
+## Segmentation Algorithm via Baysor Xenium data
 
 Breast cancer data from Xenium portal
 https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast
@@ -10,7 +10,7 @@ https://github.com/kharchenkolab/Baysor
 
 It is not spatial transcriptomics data but single molecule data like FISH or in-situ sequencing.
 
-##Installation
+## Installation
 
 Some insights may be found here
 https://www.10xgenomics.com/analysis-guides/using-baysor-to-perform-xenium-cell-segmentation
