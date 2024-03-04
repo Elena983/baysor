@@ -2,7 +2,7 @@
 
 ## Segmentation Algorithm via Baysor Xenium data
 
-Breast cancer data from Xenium portal
+Breast cancer data from the Xenium portal
 https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast
 
 the primary source and code
@@ -44,7 +44,7 @@ Preview command to see preliminary data
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/b2f135f1-0eea-4d76-8ea7-63dd76ed5f52)
 
-As we see, in Xenium data 161K cells, we got 330k.
+As we can see, in Xenium data, we got 118K cells, and we got 330k.
 Then we will cut some to prominent artefacts and noise.
 We may always try different BAYSOR settings, to see the best fine-tunes.  
 
