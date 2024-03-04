@@ -64,9 +64,11 @@ Quality control of segmentation.csv and segmentation_stats.csv files
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/09e91075-aa44-4477-b8d2-edbb005faa69)
 
-Exploring defaught Xenium segmentation data
+Exploring default Xenium segmentation data
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/4e28aea8-3feb-4e5f-9fcd-768fcfb9b1fc)
+
+Clusterization is done without any dimensional reduction using the Vojager Package (by Lior Pacher) 
 
 
 
