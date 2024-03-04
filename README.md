@@ -42,7 +42,7 @@ Preview command to see preliminary data
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/b49d177b-4fc3-46e6-9371-cd30afa46756)
 
-![image](https://github.com/Elena983/baysor/assets/68946912/2883b4cd-3c2b-42c7-932a-afe46421c121)
+![image](https://github.com/Elena983/baysor/assets/68946912/b2f135f1-0eea-4d76-8ea7-63dd76ed5f52)
 
 Baysor segmentation. Run
 
@@ -59,6 +59,16 @@ Clustering
 After cell segmentation, we must transform segmentation.csv to the appropriate format for tools like Seurat or Scipy (python script - map_transcripts.py).
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/457f711e-9efb-46a7-a2c1-a80a59e3b08a)
+
+Quality control of segmentation.csv and segmentation_stats.csv files
+
+![image](https://github.com/Elena983/baysor/assets/68946912/09e91075-aa44-4477-b8d2-edbb005faa69)
+
+Exploring defaught Xenium segmentation data
+
+![image](https://github.com/Elena983/baysor/assets/68946912/4e28aea8-3feb-4e5f-9fcd-768fcfb9b1fc)
+
+
 
 
 
