@@ -44,6 +44,10 @@ Preview command to see preliminary data
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/b2f135f1-0eea-4d76-8ea7-63dd76ed5f52)
 
+As we see, in Xenium data 161K cells, we got 330k.
+Then we will cut some to prominent artefacts and noise.
+We may always try different BAYSOR settings, to see the best fine-tunes.  
+
 Baysor segmentation. Run
 
 ![image](https://github.com/Elena983/baysor/assets/68946912/38955390-2944-4448-9cea-90b4dd86f6a1)
