@@ -12,21 +12,17 @@ It is not spatial transcriptomics data but single molecule data like FISH or in-
 
 Some insights from 10x genomics may be found [here](https://www.10xgenomics.com/analysis-guides/using-baysor-to-perform-xenium-cell-segmentation)
 
------------------------------
+--------------------------------------------------
+```bash
+julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/kharchenkolab/Baysor.git")); Pkg.build()'
+```
 
 ```bash
 curl -fsSL https://install.julialang.org | sh
-
------------------------------
-
-```bash
-julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/kharchenkolab/Baysor.git")); Pkg.build()'
-
-
+```
+---------------------------------------------------
 
 Only the transcripts.csv.gz file will be needed.
-
----------------------------------------------------
 
 Download Micromamba and the required modules (pandas, scipy, pyarrow) and create the environment.
 Prepare Xenium data for the baysor algorithm running (python script - filter_transcripts.py) to get filtered_transcripts.csv.
