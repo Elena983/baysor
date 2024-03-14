@@ -64,7 +64,7 @@ So, we allowed the algorithm to define the radius of the cells found.
 
 Then, I applied different settings to find the best options for the Baysor.
 
-The best ones were obtained using the deepcell mask with -s 20 or Xenium segmentation column in the data with the same cell radius.
+The best ones were obtained using the deepcell mask with -s 20 (95k) or Xenium segmentation column in the data with the same cell radius (104k).
 
 After cell segmentation, we must transform segmentation.csv to the appropriate format for tools like Seurat or Scipy (python script - map_transcripts.py).
 
