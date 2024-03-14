@@ -17,10 +17,12 @@ Some insights from 10x genomics may be found [here](https://www.10xgenomics.com/
 ```bash
 curl -fsSL https://install.julialang.org | sh
 
+-----------------------------
+
 ```bash
 julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/kharchenkolab/Baysor.git")); Pkg.build()'
 
------------------------------
+
 
 Only the transcripts.csv.gz file will be needed.
 
